@@ -1,4 +1,4 @@
-// server.js - Lightweight local HTTP server for Hilmy Telecom POS (Zero dependencies)
+// server.js - Lightweight local HTTP server for RED MAGIC POS (Zero dependencies)
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
@@ -253,7 +253,7 @@ const server = http.createServer((req, res) => {
 
 server.listen(PORT, '0.0.0.0', () => {
   console.log('========================================================');
-  console.log('       نظام سنترال حلمي (POS) يعمل بنجاح!              ');
+  console.log('  نظام ريد ماجيك سنترال وموبايل (RED MAGIC POS) يعمل بنجاح! ');
   console.log('========================================================');
   console.log(`- افتح من هذا الجهاز:         http://localhost:${PORT}`);
   
